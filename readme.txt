@@ -1,4 +1,4 @@
-=== Eisma Profile Exporter ===
+=== Eisma Profiles Exporter ===
 Contributors: pronamic, remcotolsma 
 Tags: pronamic, eisma, profile, exporter
 Requires at least: 3.0
@@ -16,7 +16,7 @@ data to an CSV file.
 
 == Installation ==
 
-Upload the Eisma Profile Exporter folder to your wp-content/plugins folder.
+Upload the Eisma Profiles Exporter folder to your wp-content/plugins folder.
 
 
 == Screenshots ==
