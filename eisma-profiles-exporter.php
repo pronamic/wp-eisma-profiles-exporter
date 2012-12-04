@@ -178,7 +178,8 @@ class Pronamic_EismaProfilesExpoter_Plugin {
 			$terms = get_the_terms( $result->post_id, 'location' );
 			if ( $terms && ! is_wp_error( $terms ) ) {				
 				foreach ( $terms as $term ) {
-					$locations[] = $term->parent . ',' . $term->name;
+					// $locations[] = $term->parent . ',' . $term->name;
+					$locations[] = $term->name;
 				}
 			}
 
@@ -188,7 +189,8 @@ class Pronamic_EismaProfilesExpoter_Plugin {
 			$terms = get_the_terms( $result->post_id, 'company' );
 			if ( $terms && ! is_wp_error( $terms ) ) {				
 				foreach ( $terms as $term ) {
-					$companies[] = $term->parent . ',' . $term->name;
+					// $companies[] = $term->parent . ',' . $term->name;
+					$companies[] = $term->name;
 				}
 			}
 
